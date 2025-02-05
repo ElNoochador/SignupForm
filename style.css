@@ -121,6 +121,19 @@ a:visited {
     text-decoration: none;
 }
 
+input:focus {
+    border-color: blue;
+    outline-color: blue;
+    border-style: solid;
+    border-width: 2px;
+}
+
+input:invalid {
+    border-color: red;
+    border-style: solid;
+    border-width: 2px;
+}
+
 @font-face {
     font-family: norse;
     src: url("Norse-Bold.otf");
